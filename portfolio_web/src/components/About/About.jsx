@@ -1,14 +1,33 @@
 import "../../style/about.css";
 import Picture from "../../img/Picture.jpg";
 const About = () => {
+  const AboutPage = () => {
+    window.location.replace("/About");
+  };
+
+  const ProjectPage = () => {
+    window.location.replace("/Project");
+  };
+
+  const ResumePage = () => {
+    window.location.replace("/Resume");
+  };
+
+  const PortfolioPage = () => {
+    window.location.replace("/Portfolio");
+  };
+
+  const ContactPage = () => {
+    window.location.replace("Contact");
+  };
   return (
     <div className='AboutWrap'>
       <div className='NavBar'>
-        <p onClick={About}>About</p>
-        <p>Resume</p>
-        <p>Project</p>
-        <p>Portfolio</p>
-        <p>Contact</p>
+        <p onClick={AboutPage}>About</p>
+        <p onClick={ResumePage}>Resume</p>
+        <p onClick={ProjectPage}>Project</p>
+        <p onClick={PortfolioPage}>Portfolio</p>
+        <p onClick={ContactPage}>Contact</p>
       </div>
       <h1>About Me</h1>
       <div className='MyInfo'>

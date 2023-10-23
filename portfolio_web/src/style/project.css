@@ -17,3 +17,72 @@ span {
   margin-left: 41vw;
   margin-right: 5vw;
 }
+
+.ToyProject {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+}
+
+.toy1 {
+  width: 35vw;
+  height: 45vh;
+
+  margin-top: 5vh;
+  margin-left: 10vw;
+
+  border-radius: 7px;
+
+  background-color: #f7f5f9;
+  background-image: url("../img/toy1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.toy1:hover,
+.toy2:hover {
+  box-shadow: 4px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.projectTitle {
+  margin-top: 39vh;
+  margin-left: 14vw;
+
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.toy2 {
+  width: 35vw;
+  height: 45vh;
+
+  margin-top: 5vh;
+  margin-left: 10vw;
+
+  background-color: #f7f5f9;
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0 auto;
+}
+
+.nextmenu {
+  background-color: black;
+
+  width: 2vw;
+  height: 1vh;
+
+  border-radius: 50px;
+
+  margin-right: 3vw;
+  margin-top: 10vh;
+
+  cursor: pointer;
+}
