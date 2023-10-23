@@ -15,3 +15,29 @@ h1 {
 .MyInfo > .picture {
   margin-top: 7vh;
 }
+
+.MyInfo > .content {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: content-box;
+
+  font-family: "Grandiflora One", serif;
+  font-size: 23px;
+}
+
+.MyInfo > .content > p {
+  margin-bottom: 2vh;
+}
+
+.MyInfo > .content > .Info_Content {
+  margin-top: 7vh;
+}
+
+h2 {
+  margin-top: 10vh;
+}
+
+.MyInfo > .content > .WorkStyle {
+  font-family: "Grandiflora One", cursive;
+}
