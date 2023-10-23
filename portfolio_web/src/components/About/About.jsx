@@ -6,6 +6,7 @@ const About = () => {
       <div className='NavBar'>
         <p onClick={About}>About</p>
         <p>Resume</p>
+        <p>Project</p>
         <p>Portfolio</p>
         <p>Contact</p>
       </div>

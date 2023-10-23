@@ -1,0 +1,19 @@
+.ProjectType {
+  display: flex;
+  flex-direction: row;
+}
+
+span {
+  margin-top: 5vh;
+
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.ProjectType > .toy {
+  margin-left: 41vw;
+  margin-right: 5vw;
+}
