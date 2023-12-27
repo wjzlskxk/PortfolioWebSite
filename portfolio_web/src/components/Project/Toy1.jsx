@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "../../style/project.css";
-const Project = () => {
+
+const ToyOne = () => {
   const AboutPage = () => {
     navigate("/About");
   };
@@ -25,7 +26,7 @@ const Project = () => {
   };
 
   const navigate = useNavigate();
-
+  
   return (
     <div className="ProjectWrap">
       <div className="NavBar">
@@ -42,29 +43,8 @@ const Project = () => {
           Team Project
         </span>
       </div>
-      <div className="ToyProject">
-        <div className="project">
-          <div
-            className="toy1"
-            onClick={() => {
-              navigate("/Project/Toy/1");
-            }}
-          >
-            <div className="projectTitle" id="toy1">
-              To-Do List
-            </div>
-          </div>
-          <div className="toy2">toy2</div>
-        </div>
-        <div className="next">
-          <span className="nextmenu"></span>
-          <span className="nextmenu"></span>
-          <span className="nextmenu"></span>
-          <span className="nextmenu"></span>
-        </div>
-      </div>
     </div>
   );
 };
 
-export default Project;
+export default ToyOne;
